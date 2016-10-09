@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="myapplication.com.mysqlite.MainActivity">
+
+    <Button
+        android:onClick="insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="插入数据" />
+
+    <Button
+        android:onClick="delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除数据" />
+    <Button
+        android:onClick="update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="更新数据" />
+
+    <Button
+        android:onClick="findId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询一条数据" />
+
+    <Button
+        android:onClick="findAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询全部数据" />
+    <myapplication.com.mysqlite.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"/>
+</LinearLayout>
